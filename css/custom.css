@@ -21,22 +21,29 @@ a {
     color: red;
 }
 
-html {
-    font-size: 20px;
+#ipad_frame {
+  position: absolute;
+  left: 124px;
+  top: -42px;
+  z-index: -1;
 }
-.unbehaved-element {
-    font-size: 2em;
+
+@media screen and (max-width: 568px) {
+  .display-4 {
+    font-size:28px;
+    }
+    h3 {
+      font-size: 18px
+    }
+    .lead {
+      font-size: 16px
+    }
 }
-@media(max-width: 1580px) {
-  html {
-    font-size: 18px;
-  }
-  .unbehaved-element {
-    font-size: 1.9em; /* Fine tune unbehaved elements */
-  }
+
+@media screen and (max-width: 768px) {
+
 }
-@media(max-width: 980px) {
-  html {
-    font-size: 16px;
-  }
+
+@media screen and (max-width: 568px) {
+
 }
