@@ -1,3 +1,42 @@
-.col {
-  padding-bottom: 15px
+#grad1 {
+  height: auto;
+  /* Rectangle */
+  background: linear-gradient(180deg, #185A9D -31.05%, #43CEA2 16.64%, rgba(118, 202, 175, 0.604068) 25.88%, rgba(204, 227, 220, 0.2) 99.02%);
+  opacity: 1.00;
+}
+
+.jumbotron {
+  background: #34A7A0;
+}
+
+.h2 {
+  color: #F2F2F2;
+}
+
+.h5 {
+  color: red;
+}
+
+a {
+    color: red;
+}
+
+html {
+    font-size: 20px;
+}
+.unbehaved-element {
+    font-size: 2em;
+}
+@media(max-width: 1580px) {
+  html {
+    font-size: 18px;
+  }
+  .unbehaved-element {
+    font-size: 1.9em; /* Fine tune unbehaved elements */
+  }
+}
+@media(max-width: 980px) {
+  html {
+    font-size: 16px;
+  }
 }
