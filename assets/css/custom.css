@@ -1,0 +1,10 @@
+#grad1 {
+  height: auto;
+  /* Rectangle */
+  background: linear-gradient(180deg, #185A9D -31.05%, #43CEA2 16.64%, rgba(118, 202, 175, 0.604068) 25.88%, rgba(204, 227, 220, 0.2) 99.02%);
+  opacity: 1.00;
+}
+
+.jumbotron {
+  background: #34A7A0;
+}
